@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+	<script src="../static/script/login.js"></script>
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>
+    <div class="container">
+	<div class="screen animation a1">
+		<div class="screen__content animation a2">
+			<form class="login">
+				<div class="login__field animation a3">
+					<i class="login__icon fas fa-user"></i>
+					<input id="user_name" type="text" class="login__input" placeholder="User name">
+				</div>
+				<div class="login__field animation a4">
+					<i class="login__icon fas fa-lock"></i>
+					<input id="pass" type="password" class="login__input" placeholder="Password">
+				</div>
+				<button class="button login__submit animation a5" type="button" onclick="login()">
+					<span class="button__text">Log In Now</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>
+				<button class="button login__submit animation a6" type="button" onclick="signup()">
+					<span class="button__text">Sign up</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>
+			</form>
+		</div>
+		<div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+

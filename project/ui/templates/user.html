@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOGSSS</title>
+    <script src="../static/script/user.js"></script>
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>
+  <div class="container">
+      <div class="screen">
+          <div class="screen__content">
+              <div class="login__field">
+                    <i class="login__icon fas fa-user"></i>
+                    <h1>Welcome To Random Dog Pictures</h1>
+              </div>
+              <div class="login__field">
+                  <i class="login__icon fas fa-user"></i>
+                  <img id="display" src="https://dog.ceo/api/img/deerhound-scottish/n02092002_6780.jpg" alt="">
+              </div>
+              <div class="login__field">
+                  <button class="button login__submit" type="button" onclick="getDogPic()">
+                      <span class="button__text">Get Random Dog!</span>
+                      <i class="button__icon fas fa-chevron-right"></i>
+                  </button>
+              </div>
+              <div class="login__field">
+                  <button class="button login__submit" type="button" onclick="logout()">
+                      <span class="button__text">Log Out</span>
+                      <i class="button__icon fas fa-chevron-right"></i>
+                  </button>
+              </div>
+          </div>
+          <div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>
+      </div>
+  </div>
+</body>
+</html>

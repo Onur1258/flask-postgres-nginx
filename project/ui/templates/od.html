@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/od.css">
+    <script src="../static/script/od.js"></script>
+    <script src="../static/script/user.js"></script>
+</head>
+<body onload="loadOnlineUsers(), loadUsers();">
+    <div class="container2">
+        <div class="row">
+            <div class="column">
+                <table id="userTable" class="styled-table animation a4">
+            <thead class="animation a5">
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>First name</th>
+                    <th>Middle name</th>
+                    <th>Last name</th>
+                    <th>E-mail</th>
+                    <th>Birthdate</th>
+                </tr>
+            </thead>
+            <tbody id="userTableBody" class="styled-table animation a6"></tbody>
+        </table>
+            </div>
+            <div class="column">
+                <table id="onlineUserTable" class="styled-table animation a4">
+                    <thead class="animation a5">
+                        <tr>
+                            <th>ID</th>
+                            <th>Username</th>
+                            <th>Ip Address</th>
+                            <th>Login Date Time</th>
+                        </tr>
+                    </thead>
+            <tbody id="tableBody" class="styled-table animation a6"></tbody>
+        </table>
+            </div>
+        </div>
+        <div class="login__field">
+                  <button class="button login__submit" type="button" onclick="logout()">
+                      <span class="button__text">Log Out</span>
+                      <i class="button__icon fas fa-chevron-right"></i>
+                  </button>
+        </div>
+        <div class="login__field">
+                  <button class="button login__submit" type="button" onclick="getLogs()">
+                      <span class="button__text">Get Logs</span>
+                      <i class="button__icon fas fa-chevron-right"></i>
+                  </button>
+        </div>
+    </div>
+</body>
+</html>

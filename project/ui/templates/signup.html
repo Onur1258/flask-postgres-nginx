@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+	<script src="../static/script/signup.js"></script>
+    <link rel="stylesheet" href="../static/css/signup.css">
+</head>
+<body>
+    <div class="container">
+	<div class="screen animation a1">
+		<div class="screen__content animation a2">
+			<form class="login">
+				<div class="login__field animation a3">
+					<i class="login__icon fas fa-user"></i>
+					<input id="firstname" type="text" class="login__input" placeholder="First name">
+				</div>
+				<div class="login__field animation a4">
+					<i class="login__icon fas fa-lock"></i>
+					<input id="middlename" type="text" class="login__input" placeholder="Middle name">
+				</div>
+				<div class="login__field animation a5">
+					<i class="login__icon fas fa-lock"></i>
+					<input id="lastname" type="text" class="login__input" placeholder="Last name">
+				</div>
+				<div class="login__field animation a6">
+					<i class="login__icon fas fa-lock"></i>
+					<input id="username" type="text" class="login__input" placeholder="User name">
+				</div>
+				<div class="login__field animation a7">
+					<i class="login__icon fas fa-lock"></i>
+					<input id="password" type="password" class="login__input" placeholder="Password">
+				</div>
+				<div class="login__field animation a8">
+					<i class="login__icon fas fa-lock"></i>
+					<input id="email" type="email" class="login__input" placeholder="E-mail">
+				</div>
+				<div class="login__field animation a9">
+					<i class="login__icon fas fa-lock"></i>
+					<input id="birthdate" type="date" placeholder="dd-mm-yyyy" class="login__input">
+				</div>
+				<button class="button login__submit animation a10" type="button" onclick="signup()">
+					<span class="button__text">Sign up</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>
+				<button class="button login__submit animation a11" type="button" onclick="goBack()">
+					<span class="button__text">Go Back</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>
+			</form>
+		</div>
+		<div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>
+
+	</div>
+</div>
+</body>
+</html>
